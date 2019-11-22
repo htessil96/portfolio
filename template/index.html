@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+    <head>
+        <title>template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <style>
+            #hero{
+                background: url(assets/img/2.jpg);  
+	            background-size: cover;
+	            background-position: center;
+	            height:calc(100vh - 120px);
+	            display: flex;
+	            align-items: center;
+	            justify-content: center;
+            }
+            .overlay{
+                background:rgba(255,255,255,.75);
+                height: 50%;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                height:calc(100hv - 85px);
+            }
+            .overlay h1, overlay p{
+                color: #912E16;
+            }
+            .overlay .btn{
+                color:#B5391B;
+                border: 1px solid #B5391B;
+            }
+            .overlay .btn:hover{
+                color: #F45E44;
+                border: 1px solid #F45E44;
+            }
+        </style>
+    </head>
+    <body>
+       <header>
+           <h1><a href="index.html" id="logo">Logo</a></h1>
+           <button id="mb">mobile menu</button>
+           <nav>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="work.html">Work</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+               </ul>
+           </nav>
+       </header>
+       
+    <!-- hero -->   
+        <div id="hero">
+           <div class="overlay">
+             <div>
+                  <h1>Photography</h1>
+                  <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "</p>
+                  <p><a href="contact.html" class="btn"> Learn More</a></p>
+             </div>
+           </div>
+        </div>
+        
+        <div class="container p100 tc" style="padding-bottom: 0;">
+           <div>
+                <h2>Benefits</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+        </div>
+        
+         <div class="container p100 tc" style="padding-top: 50px;">
+             <div class="c33  p50 tc">
+                 <div>
+                     <h3> Fast</h3>
+                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                 </div>
+             </div>
+             <div class="c33  p50 tc">
+                 <div>
+                     <h3> Photo and Video</h3>
+                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                 </div>
+             </div>
+             <div class="c33  p50 tc">
+                 <div>
+                     <h3> Retouching and Editing</h3>
+                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                 </div>
+             </div>
+        </div>
+        <div class="a2">
+            <div class="container p50 tc">
+                <div >
+                    <h2> Contact Us Today</h2>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p><a href="contact.html" class="btn"> Contact Us</a></p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <footer>
+            <p class="tc p10">&copy; 2019. All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
